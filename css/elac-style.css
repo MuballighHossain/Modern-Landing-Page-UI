@@ -1,0 +1,93 @@
+:root{
+    --grey: #f6f6f6;
+    --animate: all 0.3s ease-out;
+}
+
+.elac-nav{
+    background-color: var(--grey);
+    background-color: var(--grey);
+}
+.grey-bar{
+    background-color: var(--grey);
+    padding-bottom: 5rem;
+}
+
+.brand-img{
+    height: 4rem;
+    transition: var(--animate);
+}
+.brand-name, .brand-subname{
+    transition: var(--animate);
+}
+
+.body{
+    height: 100vh;
+}
+.one-time{
+    overflow: hidden;
+}
+.carousel{
+    position: absolute;
+    top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    
+}
+.slick-buttons{
+    position: absolute;
+    top: 30rem;
+    left: 32rem;
+    z-index: 3;
+    color: black;
+}
+.carimg{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    position: relative;
+}
+.prev , .next{
+    cursor: pointer;
+}
+.after{
+    margin-top: 22rem;
+}
+.img-content{
+    position: relative;
+    z-index: 5;
+    top: -20rem;
+    padding: 3rem;
+
+}
+.img-content-ad{
+    position: relative;
+    z-index: 5;
+    top: -2rem;
+    padding: 3rem;
+    
+}
+.adimg{
+    position: absolute;
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+}
+.ads{
+    object-fit: contain;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 992px){
+    .slick-buttons{
+        left: 3rem;
+    }
+
+}
